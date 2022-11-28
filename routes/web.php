@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mainview');
 });
+
+
+Route::get("contact", "mainviewcontroller@contact");
