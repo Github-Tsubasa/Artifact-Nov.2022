@@ -10,6 +10,8 @@
         opacity: 1;
         /* background-repeat: no-repeat; */
         width: all;
+        overflow-x: hidden;
+
       }
 
       .p{
@@ -18,11 +20,15 @@
       }
 
 
-      .flame{
+      .flame::-webkit-scrollbar{
         height: 90vh;
         /* color:white ; */
         /* background: #EEEEEE	;
         opacity: 1; */
+
+        /* overflow-x: hidden; */
+        display:none;
+        /* white-space: nowrap; */
       }
 
       .Page_Title{
@@ -119,9 +125,9 @@
 </head>
 <body>
 <div class = backbround>
-  <p>
+  <p></p>
   <img src="/images/image7.jpeg" width="50%">
-  </p>
+  
 
   <div class = image></div>
     <div class = flame>
