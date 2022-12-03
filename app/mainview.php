@@ -1,4 +1,5 @@
 <?php
+//新たに生成
 
 namespace App;
 

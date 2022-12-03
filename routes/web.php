@@ -11,6 +11,9 @@
 |
 */
 
+
+
+// welcome.blade → mainviewへ変更
 Route::get('/', function () {
     return view('mainview');
 });
